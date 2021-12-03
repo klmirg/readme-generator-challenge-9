@@ -1,14 +1,23 @@
 {
-  "name": "static-site",
+  "name": "readme-generator-challenge-9",
   "version": "1.0.0",
-  "description": "",
+  "description": "[How to create a Professional README](./readme-guide.md)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klmirg/readme-generator-challenge-9.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/klmirg/readme-generator-challenge-9/issues"
+  },
+  "homepage": "https://github.com/klmirg/readme-generator-challenge-9#readme",
   "dependencies": {
-    "inquirer": "^6.3.1"
+    "inquirer": "^8.2.0"
   }
 }

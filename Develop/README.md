@@ -1,15 +1,46 @@
-# Readme generator
+# ReadME Generator
+
+
+## Description
+
+It generates a readme based off of questions and answers you give
+
+## Table of Contents
 
 * [Description](#description)
+
 * [Installation](#installation)
+
 * [Usage](#usage)
-* [Contributions](#contribution)
+
+ * [License](#license)
 
 
- ## Description
+* [Contributions](#contributions)
+
+* [Tests](#tests)
+
+* [Badges](#Badges)
+
  ## Installation
+
+ find the directory with package.json and run the command "npm i inquirer"
+
  ## Usage
+
+## License
+    
+      This project is licensed under the GPL 3.0 license.
+
  ## Contributions
 
- Generates a readme
+ Nothing!
+ 
+ ## Tests
+
+ npm run test
+ 
+ ## Badges
+
+ ![GitHub License](https://img.shields.io/badge/license-GPL3.0-blue.svg)
 

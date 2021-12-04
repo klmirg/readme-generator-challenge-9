@@ -24,7 +24,7 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   // this project is licensed under the "license " license.
   if(license !== "None"){
-    return `## License
+    return ` ## License
     
       This project is licensed under the ${license} license.`
   }
@@ -34,7 +34,7 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   console.log("DATA FROM INDEX.jS", data)
   return `# ${data.name}
-
+  ${renderLicenseBadge(data.license)}
 
 ## Description
 
@@ -42,24 +42,27 @@ ${data.description}
 
 ## Table of Contents
 
-* [Description](#description)
-
 * [Installation](#installation)
 
 * [Usage](#usage)
+
 ${renderLicenseLink(data.license)}
 
 * [Contributions](#contributions)
 
 * [Tests](#tests)
 
-* [Badges](#Badges)
+* [Questions](#questions)
 
  ## Installation
 
- ${data.installation}
-
+ To install necessary dependencies, run the following command:
+  
+ '${data.installation}'
+ 
  ## Usage
+
+${data.usage}
 
 ${renderLicenseSection(data.license)}
 
@@ -69,11 +72,13 @@ ${renderLicenseSection(data.license)}
  
  ## Tests
 
- ${data.test}
- 
- ## Badges
+ To run tests, run the following command:
 
- ${renderLicenseBadge(data.license)}
+ '${data.test}'
+
+ ## Questions
+
+ If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at https://github.com/${data.username}.
 
 `;
 }

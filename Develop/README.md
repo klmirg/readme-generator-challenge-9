@@ -1,17 +1,16 @@
 # ReadME Generator
-
+  ![GitHub License](https://img.shields.io/badge/license-BSD 3-blue.svg)
 
 ## Description
 
-It generates a readme based off of questions and answers you give
+It generates a READMe based on questions and the answers that the user gives.
 
 ## Table of Contents
-
-* [Description](#description)
 
 * [Installation](#installation)
 
 * [Usage](#usage)
+
 
  * [License](#license)
 
@@ -20,27 +19,33 @@ It generates a readme based off of questions and answers you give
 
 * [Tests](#tests)
 
-* [Badges](#Badges)
+* [Questions](#questions)
 
  ## Installation
 
- find the directory with package.json and run the command "npm i inquirer"
-
+ To install necessary dependencies, run the following command:
+  
+ 'npm i'
+ 
  ## Usage
 
-## License
+Have fun and enjoy!
+
+ ## License
     
-      This project is licensed under the GPL 3.0 license.
+      This project is licensed under the BSD 3 license.
 
  ## Contributions
 
- Nothing!
+ have fun and enjoy!! :)
  
  ## Tests
 
- npm run test
- 
- ## Badges
+ To run tests, run the following command:
 
- ![GitHub License](https://img.shields.io/badge/license-GPL3.0-blue.svg)
+ 'npm test'
+
+ ## Questions
+
+ If you have any questions about the repo, open an issue or contact me directly at klmirg6@gmail.com. You can find more of my work at https://github.com/klmirg.
 

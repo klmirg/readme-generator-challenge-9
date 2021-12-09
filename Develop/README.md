@@ -1,9 +1,9 @@
-# ReadME Generator
-  ![GitHub License](https://img.shields.io/badge/license-BSD 3-blue.svg)
+# README Generator
+  ![GitHub License](https://img.shields.io/badge/license-BSD3-blue.svg)
 
 ## Description
 
-It generates a READMe based on questions and the answers that the user gives.
+Generates a README
 
 ## Table of Contents
 
@@ -25,25 +25,25 @@ It generates a READMe based on questions and the answers that the user gives.
 
  To install necessary dependencies, run the following command:
   
- 'npm i'
+ ' npm i '
  
  ## Usage
 
-Have fun and enjoy!
+Have at it! It is yours to use!
 
  ## License
     
-      This project is licensed under the BSD 3 license.
+      This project is licensed under the BSD3 license.
 
  ## Contributions
 
- have fun and enjoy!! :)
+ Feel free to contribute, at my github
  
  ## Tests
 
  To run tests, run the following command:
 
- 'npm test'
+ ' npm test '
 
  ## Questions
 

@@ -11,9 +11,9 @@ Generates a README based on user input.
 
 * [Usage](#usage)
 
+* [Languages](#languages)
 
- * [License](#license)
-
+* [License](#license)
 
 * [Contributions](#contributions)
 
@@ -25,19 +25,27 @@ Generates a README based on user input.
 
  To install necessary dependencies, run the following command:
   
- ' npm i '
+ ' npm install '
  
  ## Usage
 
-Have at it! It is yours to use!
+ It is open to the public, so feel free to use if you would like. 
+ Here is a tutorial video on how to use the README Generator:
+ https://watch.screencastify.com/v/mLa8hzo17OHagCDpKAmm
 
+ ## Languages
+ 
+  * JavaScript
+  * Node.js
+  * Inquirer
+  
  ## License
     
       This project is licensed under the MIT license.
 
  ## Contributions
 
- Feel free to contribute if you'd like!
+  Ronya Gettis
  
  ## Tests
 
